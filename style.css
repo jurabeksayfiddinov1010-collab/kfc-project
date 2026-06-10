@@ -30,6 +30,13 @@ header{
 .textsec1{
     width: 350px;
 }
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 @media (max-width:510px)
 {
     .headertexts{
@@ -46,5 +53,8 @@ header{
     }
     .textsec1{
         text-align: center;
+    }
+    .section2{
+        overflow: auto;
     }
 }
